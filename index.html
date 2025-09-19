@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Stefka - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Olivia Stefka</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Olivia Stefka</span></h1>
+                <p class="hero-subtitle">Professional Portfolio & Career Showcase</p>
+                <p class="hero-description">
+                    Welcome to my digital portfolio. I'm passionate about creating meaningful work 
+                    and connecting with opportunities that align with my professional goals.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="ProHeadshot.jpg" alt="Olivia Stefka Professional Headshot" class="hero-headshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="image-placeholder" style="display: none;">
+                    <p>Professional Photo</p>
+                    <small>ProHeadshot.jpg</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated professional with a strong academic background and 
+                        a passion for excellence.                         With a B.S. in Interdisciplinary Physics 
+                        John Carroll University and currently pursuing my M.S. in ESTEEM at 
+                        the University of Notre Dame, I'm focused on building a career that
+                        combines my technical skills with my drive to make a meaningful impact.
+                    </p>
+                    <p>
+                        My journey has been shaped by a commitment to continuous learning 
+                        and professional development. I believe in the power of collaboration, 
+                        innovation, and maintaining the highest standards in everything I do.
+                    </p>
+                    <div class="about-links">
+                        <a href="https://esteem.nd.edu/our-students/records/olivia-stefka-2025-2026/" 
+                           class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                            View Academic Profile
+                        </a>
+                        <a href="#" class="btn btn-primary" onclick="openPDFPreview('Final Stefka Resume.pdf', 'Resume Preview')">
+                            View Resume
+                        </a>
+                        <a href="Final Stefka Resume.pdf" class="btn btn-outline" download>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>Education</h3>
+                        <p>B.S. Interdisciplinary Physics John Carroll University</p>
+                        <p>M.S. ESTEEM University of Notre Dame</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Focus</h3>
+                        <p>Professional Development</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Status</h3>
+                        <p>Seeking Opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Explore my work and professional projects</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Industry Portfolio</h3>
+                        <p>Comprehensive collection of my professional work and projects that demonstrate my skills and capabilities.</p>
+                        <a href="portfolio-gallery.html" class="btn btn-outline" target="_blank">
+                            View Portfolio
+                        </a>
+                        <a href="Industry Portfolio.pdf" class="btn btn-secondary" download>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Academic Achievements</h3>
+                        <p>Showcasing my educational journey and academic accomplishments at the University of Notre Dame.</p>
+                        <a href="https://esteem.nd.edu/our-students/records/olivia-stefka-2025-2026/" 
+                           class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                            View Profile
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Professional Resume</h3>
+                        <p>Detailed overview of my experience, skills, and qualifications in a professional format.</p>
+                        <a href="#" class="btn btn-outline" onclick="openPDFPreview('Final Stefka Resume.pdf', 'Resume Preview')">
+                            View Resume
+                        </a>
+                        <a href="Final Stefka Resume.pdf" class="btn btn-secondary" download>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'd love to hear from you. Let's connect!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:ostefka@nd.edu">ostefka@nd.edu</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://www.linkedin.com/in/olivia-stefka/" target="_blank" rel="noopener noreferrer">
+                            Connect with me on LinkedIn
+                        </a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Notre Dame, Indiana</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Olivia Stefka. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/olivia-stefka/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:ostefka@nd.edu">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PDF Preview Modal -->
+    <div id="pdfModal" class="pdf-modal">
+        <div class="pdf-modal-content">
+            <div class="pdf-modal-header">
+                <h3 id="pdfModalTitle">PDF Preview</h3>
+                <span class="pdf-modal-close" onclick="closePDFPreview()">&times;</span>
+            </div>
+            <div class="pdf-modal-body">
+                <iframe id="pdfViewer" src="" width="100%" height="600px"></iframe>
+            </div>
+            <div class="pdf-modal-footer">
+                <button onclick="closePDFPreview()" class="btn btn-secondary">Close</button>
+                <a id="pdfDownloadLink" href="" download class="btn btn-primary">Download PDF</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R]
+/Count 6
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 9 0 R
+/Resources <<
+/XObject <<
+/Im1 10 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 11 0 R
+/Resources <<
+/XObject <<
+/Im2 12 0 R
+>>
+>>
+>>
+endobj
+
+5 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 13 0 R
+/Resources <<
+/XObject <<
+/Im3 14 0 R
+>>
+>>
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 15 0 R
+/Resources <<
+/XObject <<
+/Im4 16 0 R
+>>
+>>
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 17 0 R
+/Resources <<
+/XObject <<
+/Im5 18 0 R
+>>
+>>
+>>
+endobj
+
+8 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 19 0 R
+/Resources <<
+/XObject <<
+/Im6 20 0 R
+>>
+>>
+>>
+endobj
+
+9 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im1 Do
+Q
+endstream
+endobj
+
+10 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for Cover Page.png]
+endstream
+endobj
+
+11 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im2 Do
+Q
+endstream
+endobj
+
+12 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for intro.png]
+endstream
+endobj
+
+13 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im3 Do
+Q
+endstream
+endobj
+
+14 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for intro 2.png]
+endstream
+endobj
+
+15 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im4 Do
+Q
+endstream
+endobj
+
+16 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for project.png]
+endstream
+endobj
+
+17 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im5 Do
+Q
+endstream
+endobj
+
+18 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for project (2).png]
+endstream
+endobj
+
+19 0 obj
+<<
+/Length 50
+>>
+stream
+q
+612 0 0 792 0 0 cm
+/Im6 Do
+Q
+endstream
+endobj
+
+20 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 612
+/Height 792
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 1000
+>>
+stream
+[Placeholder for ToC.png]
+endstream
+endobj
+
+xref
+0 21
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000000433 00000 n 
+0000000592 00000 n 
+0000000751 00000 n 
+0000000910 00000 n 
+0000001069 00000 n 
+0000001228 00000 n 
+0000001387 00000 n 
+0000001546 00000 n 
+0000001705 00000 n 
+0000001864 00000 n 
+0000002023 00000 n 
+0000002182 00000 n 
+0000002341 00000 n 
+0000002500 00000 n 
+0000002659 00000 n 
+0000002818 00000 n 
+trailer
+<<
+/Size 21
+/Root 1 0 R
+>>
+startxref
+2977
+%%EOF
